@@ -1,1 +1,5 @@
 *.log
+*.aux
+*.gz
+*.out
+*.pdf
