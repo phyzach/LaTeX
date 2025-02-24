@@ -1,0 +1,137 @@
+%-------------------------
+% Entry-level Cover-letter Template in LaTeX
+% Made to go with "Entry-level Resume in laTeX" - here
+% Version - v1.0
+% Last Edits - October 5, 2021
+% Author : Jayesh Sanwal
+% Reach out to me on LinkedIn(/in/jsanwal), with any suggestions, ideas, issues, etc.
+%------------------------
+
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  STARTING HERE, DO NOT TOUCH ANYTHING 
+%%%%%%% --------------------------------------------------------------------------------------
+
+%%%% Define Document type
+\documentclass[11pt,a4]{article}
+
+%%%% Include Packages
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+ \usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{tabularx}
+\hypersetup{colorlinks=true,urlcolor=black}
+\usepackage[11pt]{moresize}
+\usepackage{setspace}
+\usepackage{fontspec}
+\usepackage[inline]{enumitem}
+\usepackage{ragged2e}
+\usepackage{anyfontsize}
+
+%%%% Set Margins
+\usepackage[margin=1cm]{geometry}
+
+%%%% Set Fonts
+\setmainfont[
+BoldFont=SourceSansPro-Semibold.otf,
+ItalicFont=SourceSansPro-RegularIt.otf
+]{SourceSansPro-Regular.otf}
+
+%%%% Set Page Style
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%%%% Set URL Style
+\urlstyle{same}
+
+%%%% Set Indentation
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%%%% Set Secondary Color, Page Number Color, Footer Text
+\definecolor{UI_blue}{RGB}{32, 64, 151}
+\definecolor{HF_color}{RGB}{179, 179, 179}
+
+%%%% Set Heading Format
+\titleformat{\section}{
+\color{UI_blue} \scshape \raggedright \large 
+}{}{0em}{}[\vspace{-0.7cm} \hrulefill \vspace{-0.2cm}]
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  END OF "DO NOT TOUCH" REGION
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%% --------------------------------------------------------------------------------------
+
+
+
+\begin{document}
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  HEADER
+%%%%%%% --------------------------------------------------------------------------------------
+\begin{center}
+    \begin{minipage}[b]{0.24\textwidth}
+            \large 52 78 13 49 \\
+            \large \href{mailto:zshelton1997@gmail.com}{zacharshel10@gmail.com} 
+    \end{minipage}% 
+    \begin{minipage}[b]{0.5\textwidth}
+            \centering
+            {\Huge Zach Shelton} \\ %
+            \vspace{0.1cm}
+            {\color{UI_blue} \Large{Data Engineer} \\
+    \end{minipage}% 
+    \begin{minipage}[b]{0.24\textwidth}
+            \flushright \large
+            {\href{https://www.linkedin.com/in/zshelton/}{linkedin.com/in/zshelton/} } \\
+
+    \end{minipage}   
+    
+\vspace{-0.15cm} 
+{\color{UI_blue} \hrulefill}
+\end{center}
+
+\justify
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+\vspace{0.1cm}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  First 2 Lines
+%%%%%%% --------------------------------------------------------------------------------------
+
+Date: \today \par \vspace{-0.1cm}
+
+To whom it may concern,
+
+I am writing to express my strong interest in the Data Engineer position at TDC NET. My academic background, combined with hands-on experience in academic research and at a data-driven startup in Denmark, has prepared me to contribute effectively to a team of driven and like-minded professionals. I have lived in Denmark for 3 years now, the opportunity to work in a technical role contributing to the future of Denmark personally motivates me.
+
+During my studies, I collaborated with a multinational team on the Compact Muon Solenoid (CMS) Experiment at CERN, where I developed machine learning algorithms to analyze large-scale datasets. My work involved creating predictive models to isolate specific decay events from kinematics data using neural networks, decision trees, and ML libraries such as XGBoost, TensorFlow, and Keras. I've worked on large server grids at CERN and FermiLab in the process of my research and these servers were managed by Google Cloud services. My work in ML at CERN puts me in a great position to work in the cutting edge on LLM and ML based solutions.
+
+In my role at Wolfram Research, I taught Wolfram Language and guided university students on data-intensive projects, including financial modeling, statistical analysis, and machine learning applications. My role would best be described as a data scientist for almost any field of study. I was tasked with quickly learning a field of science and technology and helping students apply data analysis to help university researchers, the projects they completed always ended with a public academic report written for the student's colleagues and Wolfram's community. On top of this research experience at Wolfram, while working at Wolfram, I wrote and explored cutting edge ML methods and neural networks. My experience in research, machine learning, and technical writing has prepared me for communicating quickly and efficiently to technical and non-technical stakeholders. 
+
+Most recently, I worked as a Data Engineer at Uptimus, a Danish startup focused on last-mile delivery optimization working with clients like Bring and Nemlig. I designed future data-streaming and data integration solutions to be used in an ETL pipeline for Uptimus. My work involved preparing production ready scripts, leveraging tools like Docker, Azure, and PostgreSQL, Github, and applying geospatial analysis with QGIS. Throughout my time at Uptimus, I strengthened my skill and ability with core python libraries(such as pandas, numpy, and scipy). Data was streamed continuously from vehicles in Sjælland, this experience and methodology at Uptimus further improved my ability to think on my feet in an CI/CD environment.
+
+At TDC NET, I hope to join a well-organized development environment and grow my technical skills with colleagues who are also excited about shaping Denmark's digital backbone. I have attached references, including my supervisor at Uptimus, who can speak to my technical abilities and work ethic. Please feel free to contact me via phone or email to discuss my application or arrange an interview.
+\par
+%%%
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  SIGNATURE
+%%%%%%% --------------------------------------------------------------------------------------
+
+\vspace{0.5cm}
+\raggedright
+Respectfully, \\ Zach Shelton \\ \\ +45 52 78 13 49 \\ 
+\href{mailto:zshelton1997@gmail.com}{zacharshel10@gmail.com} 
+
+\end{document}
