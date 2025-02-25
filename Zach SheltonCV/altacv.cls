@@ -214,7 +214,7 @@
     \if@normalphoto
       \includegraphics[width=\linewidth]{#2}%
     \else
-      \tikz\path[fill overzoom image={#2},angle=90]circle[radius=0.5\linewidth];
+      \tikz\path[fill overzoom image={#2}]circle[radius=0.5\linewidth];
     \fi%
   \end{minipage}%
 }
