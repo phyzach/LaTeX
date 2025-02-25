@@ -3,3 +3,5 @@
 *.gz
 *.out
 *.pdf
+*.xml
+*.bcf
