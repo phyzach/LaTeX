@@ -1,0 +1,30 @@
+PWD c:/Users/zshel/Documents/LaTeX/CV_and_CoverLetter/Zach SheltonCV - Non-Technical
+INPUT c:/texlive/2024/texmf.cnf
+INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/zshel/Documents/LaTeX/CV_and_CoverLetter/Zach SheltonCV - Non-Technical/zshelton.tex
+OUTPUT zshelton.log
+INPUT ./altacv.cls
+INPUT altacv.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/exscale.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/exscale.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pdfx/pdfx.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pdfx/pdfx.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/everyshi/everyshi.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/everyshi/everyshi.sty
+INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
