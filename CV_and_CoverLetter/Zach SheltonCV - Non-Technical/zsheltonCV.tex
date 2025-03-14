@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.6.4, 13 Nov 2021) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 package.
+%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{Salmon}{HTML}{FA8072}
+\definecolor{Aquamarine}{HTML}{088F8F}
+\definecolor{TealBlue}{HTML}{008080}
+%\usepackage[dvipsnames]{xcolor}
+\colorlet{heading}{TealBlue}
+\colorlet{accent}{Salmon}
+\colorlet{emphasis}{Aquamarine}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+% \renewcommand{\personalinfofont}{\footnotesize}
+% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+% \renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+\input{pubs-authoryear}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+% \input{pubs-num}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{ZACHARY SHELTON}
+\tagline{\textcolor{Aquamarine}{}}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%% You can add multiple photos on the left or right
+\photoR{3.5cm}{IMG_0577(1).jpg}
+%\photoL{2cm}{Yacht_High,Suitcase_High}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{zacharshel10@gmail.com}
+  \phone{+45 52 78 13 49}\\
+  \location{Copenhagen, Demark}
+    \bigskip
+    \\
+   Data engineer and scientist reinvent myself in a customer oriented position in a place or with a team I who shares my passions for making the world a better place. Looking for a part time role while I continue my education.
+%   
+%   \orcid{0000-0000-0000-0000} % Obviously making this up too.
+  %% You can add your own arbitrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+	%%
+  %% For services and platforms like Mastodon where there isn't a
+  %% straightforward relation between the user ID/nickname and the hyperlink,
+  %% you can use \printinfo directly e.g.
+  %% But if you absolutely want to create new dedicated info fields for
+  %% such platforms, then use \NewInfoField* with a star:
+  % \NewInfoField*{mastodon}{\faMastodon}
+  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
+  %% the full hyperlink.
+  % \mastodon{@username@instance}{https://instance.url/@username}
+}
+\textbf{Authorized to Work in Denmark}\\ 
+\smallskip
+\makecvheader
+
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+
+\cvsection{Work Experience}
+\cvevent{Data Engineer}{Uptimus}{Aug 2024 - Dec 2024}{Copenhagen, DK}
+\begin{itemize}
+    \item Collaborated effectively with team members to maintain smooth operations, manage high-volume tasks, and uphold quality standards for beverages and cleanliness.
+    \item Demonstrated strong attention to detail in order accuracy, cash handling, and inventory management, contributing to efficient daily operations.
+    \item Adapted quickly to dynamic settings, proactively learning new skills and prioritizing tasks to deliver consistent results during peak hours
+\end{itemize}
+\cvevent{Student Research Coordinator}{Wolfram Research Inc.}{Jan 2020 - Feb 2024}{Copenhagen, DK (Remote)}
+\begin{itemize}
+    \item    Managed and mentored a diverse group of individuals, fostering collaboration and ensuring smooth operations in a fast-paced, team-oriented environment.
+
+    \item    Provided personalized guidance and support to team members, helping them navigate tasks and improve efficiency in daily operations.
+
+    \item    Trained individuals on best practices for workflow management, quality control, and maintaining high standards in a dynamic setting.
+
+    \item    Adapted to changing priorities by coordinating tasks effectively, ensuring seamless operations during high-demand periods and special events.
+
+    \item    Communicated clearly with individuals from diverse backgrounds, promoting a positive and inclusive team environment.
+
+    Analyzed feedback and implemented actionable insights to improve processes and enhance overall team performance.
+\end{itemize}
+
+\cvsection{Education}
+\cvevent{MSc Physics, Focus Area High Energy Physics}{Florida Institute of Technology}{Jan 2020 - Dec 2021}{Melbourne, United States}
+
+
+
+\textcolor{Aquamarine}{Using Machine Learning to identify Top Quarks in CMS (Feb 2021 - Sept 2021)}
+\begin{itemize}
+    \item Used Python library XgBoost to identify and match top quark pairs via charge and geometric characteristics of  hadronic decay jets.
+\end{itemize}
+\cvevent{BSc Physics and STEM Education}{Florida Institute of Technology}{August 2015 - December 2019}{Melbourne, United States}
+\textcolor{Aquamarine}{Educational Cosmic Muon Detector - BSc Thesis (January 2019 - December 2019)}
+\switchcolumn
+
+\cvsection{Skills \& Competencies}
+
+\cvtag{Communication}
+\cvtag{Cleanliness}\\
+\cvtag{Customer Service}
+\cvtag{Microsoft Office}
+\cvtag{Mathematics}
+\cvtag{Food Safety}\\
+\cvtag{Shift Planning}
+\cvtag{Time Management}\\
+\cvtag{Point of Sale}
+\cvtag{Planning}
+\cvtag{Attention to Detail}
+
+\cvsection{Professional\\\smallskip Interests}
+
+
+\cvtag{Particle Physics}
+\cvtag{Data Science}\\
+\cvtag{Artificial Intelligence}
+\cvtag{Green Energy}
+\cvtag{Data Visualization}
+
+
+\medskip
+
+
+
+
+\cvsection{Languages}
+\cvtag{English(Native Speaker)} \\
+\cvtag{Danish (PD 2.5)}
+
+% \bigskip
+% \bigskip
+% \bigskip
+% \bigskip
+% \bigskip
+% \bigskip
+% \bigskip
+% \bigskip
+% \bigskip
+% \bigskip
+% \bigskip
+
+
+\cvsection{Hobbies and \\\smallskip Interests}
+\cvtag{Snowboarding}
+\cvtag{Hiking}
+\cvtag{Camping} \\
+\cvtag{Gaming}
+\cvtag{Electronics prototyping}
+
+\cvsection{Work Experience (Cont)}
+
+
+\cvevent{Undergraduate Research Assistant}{Florida Institute of Technology}{May 2016-Dec 2019  }{Melbourne, USA}
+\begin{itemize}
+\item Work under Associate Professor Ph.D. Francisco Yumiceva.
+\item Design a Print Circuit Board (PCB) (Using Eagle CAD) for use in particle physics labs including FermiLab, and the CMS detector at CERN.
+\item Spent 3 months working on multinational team testing CMS equipment at Fermilab.
+\item Maintained team python software base while at Fermi-Lab.
+\item Use ROOT7 analysis framework and Python to analyze CERN Analysis Object Data.
+\end{itemize}
+
+\end{paracol}
+
+\end{document}
