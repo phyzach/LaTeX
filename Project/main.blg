@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ieeetr.bst
+Database file #1: document.bib
+Warning--I didn't find a database entry for "simbad"
+You've used 5 entries,
+            1876 wiz_defined-function locations,
+            502 strings with 4200 characters,
+and the built_in function-call counts, 719 in all, are:
+= -- 66
+> -- 27
+< -- 0
++ -- 12
+- -- 7
+* -- 38
+:= -- 118
+add.period$ -- 8
+call.type$ -- 5
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 24
+empty$ -- 88
+format.name$ -- 7
+if$ -- 174
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 1
+newline$ -- 21
+num.names$ -- 5
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 15
+stack$ -- 0
+substring$ -- 0
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 5
+width$ -- 6
+write$ -- 49
+(There was 1 warning)
