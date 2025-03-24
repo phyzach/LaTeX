@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{hertz}
+S.~U. of~Technology, ``hertzsprung russell diagram.'' https://astronomy.swin.edu.au/cosmos/h/hertzsprung-russell+diagram, 2025.
+
+\bibitem{stellerclass}
+W.~Commons, ``Stellar classification chart.'' \url{https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Stellar_Classification_Chart.png/500px-Stellar_Classification_Chart.png}, 2025.
+\newblock Accessed: 2025-03-23.
+
+\bibitem{sinbad}
+C.~de~Données astronomiques~de Strasbourg, ``Simbad astronomical database.'' \url{http://simbad.u-strasbg.fr/simbad/}, 2025.
+\newblock Accessed: 2025-03-23.
+
+\bibitem{vizier}
+C.~de~Données astronomiques~de Strasbourg, ``Vizier online data catalog.'' \url{http://vizier.u-strasbg.fr/viz-bin/VizieR}, 2025.
+\newblock Accessed: 2025-03-23.
+
+\bibitem{schwartz}
+E.~Schwartz, S.~Lipson, and E.~Ribak, ``Improving identification of weak spectral lines in the presence of a strong continuum,'' {\em Astrophysics and Space Science}, vol.~361, 04 2016.
+
+\end{thebibliography}

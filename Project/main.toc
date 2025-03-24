@@ -1,0 +1,11 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Abstract}{2}{section.1}%
+\contentsline {section}{\numberline {2}Celestial Databases}{2}{section.2}%
+\contentsline {section}{\numberline {3}Glossary of Important Terms}{2}{section.3}%
+\contentsline {section}{\numberline {4}Finding Information on Aldebaran}{4}{section.4}%
+\contentsline {section}{\numberline {5}Aldebaran's Spectrum and Characteristics}{7}{section.5}%
+\contentsline {section}{\numberline {6}VizieR Database}{8}{section.6}%
+\contentsline {section}{\numberline {7}Determining the Temperature of Aldebaran}{10}{section.7}%
+\contentsline {section}{\numberline {8}Spectrum Analysis of Stars and Aldebaran}{11}{section.8}%
+\contentsline {section}{\numberline {9}Conclusion and Extensions}{12}{section.9}%
+\contentsline {section}{References}{12}{section.9}%
