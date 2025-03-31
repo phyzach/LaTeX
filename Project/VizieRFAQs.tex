@@ -1,0 +1,92 @@
+\documentclass[12pt,oneside,a4paper,english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % Changed from latin2 to utf8 for better compatibility
+\usepackage[margin=2.25cm,headheight=26pt,includeheadfoot]{geometry}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[framed, numbered]{matlab-prettifier}
+\usepackage{changepage}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{caption}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{titling}
+\usepackage{float}
+\usepackage{comment}
+\usepackage{booktabs}
+\usepackage{indentfirst}
+\usepackage{lscape}
+\usepackage{booktabs,caption}
+\usepackage[flushleft]{threeparttable}
+\usepackage[english]{nomencl}
+\usepackage{xcolor}
+\usepackage{lipsum}
+
+% Set up hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Aldebaran Transit Near Venus in 2025},
+    pdfpagemode=FullScreen,
+}
+
+% --- set footer and header ---
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{VizieR FAQs}
+\rfoot{Page \thepage\ of \pageref{LastPage}}
+
+% --- Title formatting ---
+\date{\today}
+
+% --- End of page settings ---
+\begin{document}
+\section{VizieR FAQs}
+This document will answer questions about the VizieR database photometry viewer. The VizieR database is a repository of astronomical catalogues and data tables. The photometry viewer is a tool that allows users to view and analyze photometric data from these catalogues.
+\subsection{What is the meaning of the target and how those numbers (in the target value) are created?} 
+The target value is the astronomical or cosmological cooridinates with the right ascension and declination of the object. The right ascension is the celestial equivalent of longitude, and the declination is the celestial equivalent of latitude. These represent the position of the object in the sky. There are 3 kinds of cooridnate systems that could be used: ICRS, FK4 and Galactic cooridinates. The ICRS is the International Celestial Reference System, which is the modern standard for celestial cooridinates. The FK4 is the old standard for celestial cooridinates. The Galactic cooridinates are the cooridinates of the object in the Milky Way galaxy.
+\subsection{What does the radius mean below it, and what does arcsec means?}
+When looking at the VizieR viewer, the radius indicates a circle on the night sky around the target. When using a cooridinates with a latitude and longitude on spherical surface, instead of decimals, we use arcminutes and arcseconds. Half a degree is equal to 30 arcminutes, and 1 arcminute is equal to 60 arcseconds. The arcsecond is a unit of angular measurement that is equal to 1/3600 of a degree. The radius just defines the region around the the target that VizieR will look for photometric data.
+\subsection{What does the SAMP connector symbol link mean?}
+This version of VizieR viewer is deprecated. SAMP is a messaging protocal to connect to desktop program like Aladdin Desktop to view the data locally on software.
+\subsection{What every part of the title (04 35 55.23907 16 30 33.4885 (04 35 55.239+16 30 33.487)) mean?}
+See above, this title is the celestial cooridinates of the region you're viewing.
+\subsection{What do the dots in the graph mean?}
+The plot is a scatter plot corresponding to x=$\mu m$ or micrometers($10^{-6}m$) and y=flux. The points represent the flux of the light at a given wavelength, flux can be measured in a few ways, but it is usually the amount of light measured per second.
+\subsection{What does the symbol ($\mu m$) near the wavelength at the x axis?}
+$\mu m$ is the symbol for micrometers, which is a unit of length equal to one millionth of a meter($10^{-6}m$). This indicates the wavelength of the light being measured.
+\subsection{What is the title of the y axis means and what are the values in the y axis mean?}
+The title of the y axis is the unit of the flux being used, which is the amount of light measured per second. $vF(v)$ can be written as as $F_{ln \lambda }$, this is a spectral energy density and is a created unit that means the max of the curve is also the maximum emission of the star. This unit is made for clarity and is not a standard unit, but it is used in astronomy to quickly identify the peak of emission of a star. 
+\subsection{What do all the dots at the maps means, what their colors mean and what is the meaning of all the data in their tooltips?}
+These dots are different colors to show the different sources of the data. The tooltips are the data from the photometric catalogues that VizieR is using to plot the data. The data in the tooltips is the photometric data from the catalogue, which includes the source of the data, the wavelength, the flux, and the error in the flux measurement. You can see them in the table below the graph.
+\subsection{On the right side, please explain all the 'mouse position' values?}
+When hovering your mouse over the plot, the value of at the position of your mouse is displayed. The mouse position values are the wavelength and the flux at that point on the plot. We can use different units for the x and y axis, wavelength and energy represent the wavelength and energy of the light at that point on the plot. The Flux Density, $vF(v)$ and $F(\lambda)$ are the units flux of the light at that point on the plot.
+\subsection{On the right side, please explain the small map (the titles of x and y axies of it), the dots, their colors, their tooltips, and the two lines of text below that small map?}
+These are the locations for the measurements of the spectra in the left plot. The x and y axis are the right ascension and declination of the object in the sky. The dots are the locations of the measurements in the photometric catalogues. The colors of the dots represent the different sources of the data. The tooltips are the data from the photometric catalogues that VizieR is using to plot the data. The two lines of text below the map are the right ascension and declination of the object in the sky.
+\subsection{Please explain everything related to the table at the lower part of the webpage?}
+Each column of the the table are explained below:
+\begin{itemize}
+    \item Source - Direct object in the catalogue of the data, click on the link to view that data.
+    \item RAJ2000 - Right ascension of the object in the sky.
+    \item DEJ2000 - Declination of the object in the sky.
+    \item tabbame - The name of the object in the catalogue. Click to view the catalogue in VizieR.
+    \item sed\_Freq - The frequency of the light being measured, given in GigaHertz.
+    \item wavelength - The wavelength of the light being measured(given in $\mu m$).
+    \item sed\_flux - The flux of the light being measured(raw data in Janskys(Jy)).
+    \item sed\_eflux - The error in the flux measurement(raw data in Janskys(Jy)).
+    \item sed\_filter - Wavelength filter, click on the link to view info about filter and observatory in VizieR.
+\end{itemize}
+You can hide data from the plot above by on the check box in each row or click the row above a group to filter out all data from one catalogue. There is also check boxes above to modify the plot viewing options, you can hide error bars by clicking the check box. You can disable the tooltip that appears when you hover over a point by clicking the check box. You can change the scale of the x and y axis to a logarithmic scale. You can export the data table to a csv file via download button or as a PNG to download via the export view buttown.
+
+\end{document}

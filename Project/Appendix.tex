@@ -1,0 +1,202 @@
+\documentclass[12pt,oneside,a4paper,english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage[margin=2.25cm,headheight=26pt,includeheadfoot]{geometry}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[framed, numbered]{matlab-prettifier}
+\usepackage{changepage}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{caption}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{titling}
+\usepackage{float}
+\usepackage{comment}
+\usepackage{booktabs}
+\usepackage{indentfirst}
+\usepackage{lscape}
+\usepackage{booktabs,caption}
+\usepackage[flushleft]{threeparttable}
+\usepackage[english]{nomencl}
+\usepackage{xcolor}
+\usepackage{lipsum}
+
+
+% --- set footer and header ---
+\pagestyle{fancy}
+\fancyhf{}
+
+
+% --- End of page settings ---
+\begin{document}
+\title{SIMBAD Alderbaran Page Definitions}
+\maketitle
+
+\pagenumbering{arabic} 
+\section{SIMBAD Table Definitions}
+We will include a glossay of terms with their reference in the \href{URL}{SIMBAD page}, the physical term, and the meaning of the term, this is based on the SIMBAD page for Alderbaran. The terms are organized by the section they are found in the SIMBAD page.
+\begin{table}[H]
+    \centering
+    \caption{Summary of Terms and the Sections in a SIMBAD Star Page}
+    \begin{tabular}{|c|p{3cm}|p{9cm}|}
+    \centering
+    \textbf{SIMBAD TERM} & \textbf{Physics Term} & \textbf{Definition} \\ \hline \hline
+            ICRS coord  & Stellar Coordinates    & Reference location coordinate     \\ \hline   
+            FK4 coord   & Stellar Coordinates    & Reference location coordinat(alternate coordinate system).  \\ \hline
+            GAL coord   & Stellar Coordinates    & Reference location coordinat(alternate coordinate system).   \\ \hline
+            Proper Motions(mas/yr) & Stellar Motion & Motion of star from earth in milliarcseconds per year.  \\ \hline 
+            Radial velocity/Redshift/cz & Apparent velocity of star is moving from Earth & Velocity of star from earth in km/s, this is the doppler effect causing redshift.  \\ \hline
+            Parallax(mas) & Parallax distance of the star in milliarcseconds & Using this value, the stellar distance to the star can be determined.  \\ \hline
+            Spectral type & Stellar Class & The class of the star, refer to above for details. \\ \hline
+            Fluxes & Luminosity & Luminosity of the star in various wavelengths starting from U - UV light to K - infared light \\ \hline
+            Hierarchy & Objects in the stars orbit or vice versa & Can be planets, other stars, generally organizes with orbiting bodies being children of larger bodies. \\ \hline
+            Identifier & Acronym Information & Due to the amount of data, there are many different nomenclature used, so clicking one of thes can give insight.  \\ \hline
+            References & Academic Observations & Allows for historical review of past observational data and the read on the methodology used. \\ \hline
+            Collections of Measurements & Measurements  & Direct link to measurements made by scientist with a reference to the academic article. See Section 5.  \\ \hline
+            Observing logs & Observational Data & Link to raw observational data, this could be unformatted.  \\ \hline
+            External Archives & External Databases & Links to other databases that may have more information on the star.  \\ \hline
+    \end{tabular}
+    \label{tab:table1}
+\end{table}
+
+    \begin{table}[H]
+    \centering
+    \caption{Velocity Table Definitions}
+    \begin{tabular}{|c|p{3cm}|p{9cm}|}
+    \centering
+    \textbf{SIMBAD TERM} & \textbf{Phyiscs/Unit} & \textbf{Definition} \\ \hline \hline
+    typ & Velocity type & Can be raw km/s(v), redshift(z), or a product of the speed of light and red shift(cz). Measure of Velocity from the earth, either as a velocity or a proportion of the redshift.  \\ \hline
+    value & Velocity & The value of the velocity based on type above  \\ \hline
+    R & Single character(?) & This indicates if there is potential systemic error in velocity.  \\ \hline
+    m.e. & Error in Velocity & The error in the velocity measurement measured as a value of $\sigma$.  \\ \hline
+    Acc & Letter Grade & Quality of measurement based on study, ranging from A-E.  \\ \hline
+    Nmes & Number of Measurements & The number of measurements taken to determine the velocity.  \\ \hline
+    nat & Measurement Type(p,s,se,sa) & Nature of measurement, refers to the sensor used to derive the velocity.\\ \hline
+    Q & Letter Grade & The quality of the measurement, duplicate value as Acc.  \\ \hline
+    dom & Domain & Wavelength domain of measurement(Radio,mm,Infared,Optical,UV,X-Ray,Gamma)  \\ \hline
+    res & Resolution & Refers to error or resolution of the tool to measure the incoming light. \\ \hline
+    D & Placeholder & Placeholder for data validation.  \\ \hline
+    Obs.data & Julian Days & Date of observation given in Julian days \\ \hline
+    Or & 2 Character code & Note of origin on the radial velocity measurement.  \\ \hline
+    reference & Bibcode & Reference to the academic article where the data was published.  \\ \hline
+    \end{tabular}
+    \label{tab:table2}
+\end{table}
+\begin{table}[H]
+    \centering
+    \caption{Rotational Velocity Table Definitions}
+    \begin{tabular}{|c|p{3cm}|p{9cm}|}
+    \centering
+    \textbf{SIMBAD TERM} & \textbf{Phyiscs/Unit} & \textbf{Definition} \\ \hline \hline
+    upVsini & Boolean Flag & Flag to indicate if the rotational velocity is the upper limit(max values).  \\ \hline
+    Vsini & Rotational Velocity(km/s) & The rotational velocity of the star in km/s.  \\ \hline
+    err & Error in Rotational Velocity(km/s) & The error in the rotational velocity measurement.  \\ \hline
+    Q & Letter Grade & The quality of the measurement(A-E)  \\ \hline
+    reference & Bibcode & Reference to the academic article where the data was published.  \\ \hline
+    \end{tabular}
+    \label{tab:table3}
+    \end{table}
+\begin{table}[H]
+    \centering
+    \caption{Variability Table Definitions}
+    \begin{tabular}{|c|p{3cm}|p{9cm}|}
+    \centering
+    \textbf{SIMBAD TERM} & \textbf{Phyiscs/Unit} & \textbf{Definition} \\ \hline \hline
+    vartyp & Type of Variability & The type of variability the star exhibits(refer to \href{https://simbad.u-strasbg.fr/Pages/guide/chG.htx#v}{Variability Definitions}) \\ \hline
+    Lomax & Single character & Flag to indicate the maximum brightness  \\ \hline
+    max & $\frac{W}{m^2}$ & The maximum brightness of the star in watts per square meter.  \\ \hline
+    R\_max & Single character & Flag to indicate the maximum brightness error.  \\ \hline
+    band & Wavelength Band & The wavelength band of measurement(Radio,mm,Infared,Optical,UV,X-Ray,Gamma)\\ \hline
+    Upmin & Single character & Flag to indicate the minimum brightness  \\ \hline
+    UpPeriod & Single character & Flag to indicate the lower limit in a period.  \\ \hline
+    period & Days & The period of the variability in Julian days.  \\ \hline
+    R\_period & Single character & Flag to indicate the period error.  \\ \hline
+    epoch & Julian Days & The time of variability measurement.  \\ \hline
+    R\_epoch & Single character & Flag to indicate the epoch error.  \\ \hline
+    D/rt & Julian Days & Special measurement for Algol type systems(special case). \\ \hline
+    $\%$ & Single Character & Flag to indicate error or uncertainty on raising time.  \\ \hline
+    reference & Bibcode & Reference to the academic article where the data was published.  \\ \hline
+    \end{tabular}
+    \label{tab:table3}
+    \end{table}
+\begin{table}[H]
+    \centering
+    \caption{Fe/H Table Definitions}
+    \begin{tabular}{|c|p{3cm}|p{9cm}|}
+    \centering
+    \textbf{SIMBAD TERM} & \textbf{Phyiscs/Unit} & \textbf{Definition} \\ \hline \hline
+    Teff & Kelvin & The effective temperature of the star in Kelvin.  \\ \hline
+    log.g & Gravity $frac{m}{s^2}$ & Effective gravity of the star \\ \hline
+    Fe\_H & Iron to Hydrogen Ratio & Also known as metallicity index in a log scale: -1 = 10x less metal than sun, +0.3 = 2x more metal than sun. Indicator for the age of the star.  \\ \hline
+    c & Single Letter & Flag indicating the method of calculating the ratio. \\ \hline
+    CompStar & Name or Identifier & Names a comparable star. \\ \hline
+    CatNo & Number & Catalog number of the star in a certain study(Cayrel Et Al).  \\ \hline
+    Reference & Bibcode & Reference to the academic article where the data was published.  \\ \hline
+    \end{tabular}
+    \label{tab:table4}
+    \end{table}
+    \begin{table}[H]
+        \centering
+        \caption{Parallax(Plx) Table Definitions}
+        \begin{tabular}{|c|p{3cm}|p{9cm}|}
+        \centering
+        \textbf{SIMBAD TERM} & \textbf{Phyiscs/Unit} & \textbf{Definition} \\ \hline \hline
+        plx & mas & Parallax distance of the star in milliarcseconds.  \\ \hline
+        m.e & mas & Error in the parallax distance of the star in milliarcseconds.  \\ \hline
+        R & 2 Character Code & Code of observatory that measured the parallax.  \\ \hline
+        reference & Bibcode & Reference to the academic article where the data was published.  \\ \hline
+        \end{tabular}
+        \label{tab:table5}
+    \end{table}
+    \begin{table}[H]
+        \centering
+        \caption{Proper Motion(PM) Table Definitions}
+        \begin{tabular}{|c|p{3cm}|p{9cm}|}
+        \centering
+        \textbf{SIMBAD TERM} & \textbf{Phyiscs/Unit} & \textbf{Definition} \\ \hline \hline
+        pm-ra & mas/yr & Proper motion in right ascension in milliarcseconds per year.  \\ \hline
+        m.e. & mas/yr & Error in the proper motion in right ascension in milliarcseconds per year.  \\ \hline
+        pm-de & mas/yr & Proper motion in declination in milliarcseconds per year.  \\ \hline
+        m.e. & mas/yr & Error in the proper motion in declination in milliarcseconds per year.  \\ \hline
+        syst & FK4,FK5,ICRS Coordinates & Coordinate system used when measuring proper motion. \\ \hline
+        reference & Bibcode & Reference to the academic article where the data was published.  \\ \hline
+        \end{tabular}
+        \label{tab:table6}
+    \end{table}
+    \begin{table}[H]
+        \centering
+        \caption{Spectral Type(SpT) Table Definitions}
+        \begin{tabular}{|c|p{3cm}|p{9cm}|}
+        \centering
+        \textbf{SIMBAD TERM} & \textbf{Phyiscs/Unit} & \textbf{Definition} \\ \hline \hline
+        ds/mss & single character with notes & Indicates the system used to make the classification.  \\ \hline
+        SpType & Spectral Type & The spectral type of the star, refer to other tutorial for info  \\ \hline
+        Reference & Bibcode & Reference to the academic article where the data was published.  \\ \hline
+        \end{tabular}
+        \label{tab:table7}
+    \end{table}
+    \section{Observational Logs}
+    The observation logs are custodial and show us the raw data from the telescope, This data is organized chronologically and can be difficult to read. The data is in the form of a table including some of the following information:
+    \begin{itemize}
+        \item Size of region of space covered in arcmin.
+        \item Observatory Code.
+        \item Minimum and Maximum wavelength searching.
+        \item Target the observatory was aiming for.
+        \item Julian Date and time of the observation.
+        \item Duration of the observation.
+        \item FOV of the lens used.
+        \item The steller coordinates of the telescope at the target.
+    \end{itemize}
+    \section{External Archives}
+    The external archives are databases that contain more information on the star, these databases are not SIMBAD but are linked to SIMBAD. These databases can contain more information on the star and nearby objects around them, these should be avoided if you are not familiar with the data you're looking at.
+\end{document}
