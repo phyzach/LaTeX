@@ -2,4 +2,3 @@ Stores all of my LaTeX documents(CVs and Public Freelancing Work) in a version c
 
 
 Thanks!
-Me to you
