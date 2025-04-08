@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  3 APR 2025 10:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  3 APR 2025 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/zshel/Documents/LaTeX/Project/AstronomicalToolsReview
-(c:/Users/zshel/Documents/LaTeX/Project/AstronomicalToolsReview.tex
+**c:/Users/zshel/Documents/LaTeX/Project/ModernTelescopeExplanation
+(c:/Users/zshel/Documents/LaTeX/Project/ModernTelescopeExplanation.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -521,27 +521,27 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_b_int=\count329
  (c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 Package hyperref Info: Option `colorlinks' set `true' on input line 43.
- (./AstronomicalToolsReview.aux)
-\openout1 = `AstronomicalToolsReview.aux'.
+ (./ModernTelescopeExplanation.aux)
+\openout1 = `ModernTelescopeExplanation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -578,7 +578,7 @@ LaTeX Font Info:    ... okay on input line 58.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count330
-Package tocbasic Info: setting babel extension for `lol' on input line 58.
+Package tocbasic Info: setting babel extension for `lol' on input line 56.
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count331
@@ -598,70 +598,146 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 58.
- (./AstronomicalToolsReview.out) (./AstronomicalToolsReview.out)
+Package hyperref Info: Link coloring ON on input line 56.
+ (./ModernTelescopeExplanation.out) (./ModernTelescopeExplanation.out)
 \@outlinefile=\write4
-\openout4 = `AstronomicalToolsReview.out'.
+\openout4 = `ModernTelescopeExplanation.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<AstroTools1.png, id=29, 331.2375pt x 296.10625pt>
-File: AstroTools1.png Graphic file (type png)
-<use AstroTools1.png>
-Package pdftex.def Info: AstroTools1.png  used on input line 75.
-(pdftex.def)             Requested size: 234.73524pt x 209.8393pt.
 
 
 [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-[2 <./AstroTools1.png>]
-<Astrolaabe1.png, id=54, 836.3747pt x 491.58656pt>
-File: Astrolaabe1.png Graphic file (type png)
-<use Astrolaabe1.png>
-Package pdftex.def Info: Astrolaabe1.png  used on input line 95.
-(pdftex.def)             Requested size: 375.57782pt x 220.75435pt.
-<Sphere1.jpg, id=57, 361.35pt x 361.35pt>
-File: Sphere1.jpg Graphic file (type jpg)
-<use Sphere1.jpg>
-Package pdftex.def Info: Sphere1.jpg  used on input line 105.
-(pdftex.def)             Requested size: 234.73524pt x 234.73688pt.
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+<Telescope1.png, id=62, 404.26031pt x 682.80093pt>
+File: Telescope1.png Graphic file (type png)
+<use Telescope1.png>
+Package pdftex.def Info: Telescope1.png  used on input line 75.
+(pdftex.def)             Requested size: 281.68515pt x 475.77988pt.
 
 
-[3 <./Astrolaabe1.png>]
+[2 <./Telescope1.png>]
+<Exposure1.jpg, id=75, 501.875pt x 275.0275pt>
+File: Exposure1.jpg Graphic file (type jpg)
+<use Exposure1.jpg>
+Package pdftex.def Info: Exposure1.jpg  used on input line 92.
+(pdftex.def)             Requested size: 281.68515pt x 154.37105pt.
 
-[4 <./Sphere1.jpg>]
 
-[5]
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Exposure1.jpg>]
+<Photoelectric_effect.svg.png, id=82, 1027.84pt x 739.76375pt>
+File: Photoelectric_effect.svg.png Graphic file (type png)
+<use Photoelectric_effect.svg.png>
+Package pdftex.def Info: Photoelectric_effect.svg.png  used on input line 110.
+(pdftex.def)             Requested size: 281.68515pt x 202.73016pt.
+<Utah2.png, id=86, 433.62pt x 441.14813pt>
+File: Utah2.png Graphic file (type png)
+<use Utah2.png>
+Package pdftex.def Info: Utah2.png  used on input line 119.
+(pdftex.def)             Requested size: 281.68515pt x 286.58806pt.
 
-[6] (./AstronomicalToolsReview.bbl)
 
-[7] 
+[4 <./Photoelectric_effect.svg.png>]
+<QECurve.png, id=98, 742.775pt x 530.98375pt>
+File: QECurve.png Graphic file (type png)
+<use QECurve.png>
+Package pdftex.def Info: QECurve.png  used on input line 129.
+(pdftex.def)             Requested size: 281.68515pt x 201.3708pt.
+
+
+[5 <./Utah2.png>]
+
+[6 <./QECurve.png>]
+<RASA_Diagram.jpg, id=120, 2610.75375pt x 1173.38374pt>
+File: RASA_Diagram.jpg Graphic file (type jpg)
+<use RASA_Diagram.jpg>
+Package pdftex.def Info: RASA_Diagram.jpg  used on input line 150.
+(pdftex.def)             Requested size: 281.68515pt x 126.6018pt.
+
+
+LaTeX Warning: Reference `utah2' on page 7 undefined on input line 157.
+
+<Telescope2.png, id=123, 484.81125pt x 331.2375pt>
+File: Telescope2.png Graphic file (type png)
+<use Telescope2.png>
+Package pdftex.def Info: Telescope2.png  used on input line 161.
+(pdftex.def)             Requested size: 281.68515pt x 192.46661pt.
+
+
+[7 <./RASA_Diagram.jpg>]
+
+[8 <./Telescope2.png>] (./ModernTelescopeExplanation.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]\T1/cmr/m/n/12 iTelescope Sup-port, ``ite-le-scope - t68 - one shot color - utah.''
+ []
+
+
+Overfull \hbox (36.26674pt too wide) in paragraph at lines 7--8
+[]\T1/cmr/m/n/12 W. Com-mons, ``Pho-to-elec-tric ef-fect.'' https://commons.wikimedia.org/wiki/File:Photoelectric_-
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 13--14
+[]\T1/cmr/m/n/12 T. W. Cen-tre, ``Ce-le-stron rowe-ackermann schmidt as-tro-graph rasa tele-scope.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+\T1/cmr/m/n/12 https://www.widescreen-centre.co.uk/celestron-rowe-ackermann-schmidt-astrograph-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\T1/cmr/m/n/12 iTelescope, ``ite-le-scope - t33 - nar-row deep field - imag-ing - aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\T1/cmr/m/n/12 tralia 12.5inch rcos mono cam-era apogee alta u16; lrgb, hso.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]\T1/cmr/m/n/12 iTelescope Sup-port, ``Ses-sion and ex-po-sure billing.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\T1/cmr/m/n/12 https://support.itelescope.net/support/solutions/articles/252769-session-and-exposure-
+ []
+
+)
+
+[9] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(./AstronomicalToolsReview.aux)
+(./ModernTelescopeExplanation.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `AstronomicalToolsReview.out' has not changed.
-(rerunfilecheck)             Checksum: 296C4C235741BE82E52863B1DB67238D;1362.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `ModernTelescopeExplanation.out' has not changed.
+(rerunfilecheck)             Checksum: 61F2B179819F2580523C423DE0BE8521;1593.
  ) 
 Here is how much of TeX's memory you used:
- 17742 strings out of 473201
- 292552 string characters out of 5720300
- 855288 words of memory out of 5000000
- 40693 multiletter control sequences out of 15000+600000
- 568040 words of font info for 53 fonts, out of 8000000 for 9000
+ 17797 strings out of 473201
+ 293565 string characters out of 5720300
+ 856470 words of memory out of 5000000
+ 40736 multiletter control sequences out of 15000+600000
+ 568566 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,11n,107p,1449b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on AstronomicalToolsReview.pdf (7 pages, 448025 bytes).
+ 110i,11n,107p,1081b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on ModernTelescopeExplanation.pdf (9 pages, 1230823 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
