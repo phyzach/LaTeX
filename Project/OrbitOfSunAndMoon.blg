@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: OrbitOfSunAndMoon.aux
+The style file: ieeetr.bst
+Database file #1: OrbitalMech.bib
+Warning--I didn't find a database entry for "sunspots"
+You've used 8 entries,
+            1876 wiz_defined-function locations,
+            518 strings with 4639 characters,
+and the built_in function-call counts, 1075 in all, are:
+= -- 89
+> -- 32
+< -- 0
++ -- 16
+- -- 8
+* -- 53
+:= -- 172
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 56
+empty$ -- 148
+format.name$ -- 8
+if$ -- 261
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 4
+newline$ -- 27
+num.names$ -- 8
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 0
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 8
+width$ -- 9
+write$ -- 67
+(There was 1 warning)
