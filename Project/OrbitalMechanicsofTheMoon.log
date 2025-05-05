@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  24 APR 2025 09:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  25 APR 2025 14:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/zshel/Documents/LaTeX/Project/AstronomicalToolsReview copy"
-(c:/Users/zshel/Documents/LaTeX/Project/AstronomicalToolsReview copy.tex
+**c:/Users/zshel/Documents/LaTeX/Project/OrbitalMechanicsofTheMoon
+(c:/Users/zshel/Documents/LaTeX/Project/OrbitalMechanicsofTheMoon.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -521,27 +521,27 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_b_int=\count329
  (c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 Package hyperref Info: Option `colorlinks' set `true' on input line 43.
- (./AstronomicalToolsReview copy.aux)
-\openout1 = `"AstronomicalToolsReview copy.aux"'.
+ (./OrbitalMechanicsofTheMoon.aux)
+\openout1 = `OrbitalMechanicsofTheMoon.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -578,7 +578,7 @@ LaTeX Font Info:    ... okay on input line 58.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count330
-Package tocbasic Info: setting babel extension for `lol' on input line 58.
+Package tocbasic Info: setting babel extension for `lol' on input line 54.
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count331
@@ -598,100 +598,85 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 58.
- (./AstronomicalToolsReview copy.out) (./AstronomicalToolsReview copy.out)
+Package hyperref Info: Link coloring ON on input line 54.
+ (./OrbitalMechanicsofTheMoon.out) (./OrbitalMechanicsofTheMoon.out)
 \@outlinefile=\write4
-\openout4 = `"AstronomicalToolsReview copy.out"'.
+\openout4 = `OrbitalMechanicsofTheMoon.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-
-LaTeX Warning: Citation `ptolo1' on page 1 undefined on input line 71.
-
-<AstroTools1.png, id=28, 331.2375pt x 296.10625pt>
-File: AstroTools1.png Graphic file (type png)
-<use AstroTools1.png>
-Package pdftex.def Info: AstroTools1.png  used on input line 75.
-(pdftex.def)             Requested size: 234.73524pt x 209.8393pt.
-
-LaTeX Warning: Citation `ptolopic' on page 1 undefined on input line 76.
-
-
-LaTeX Warning: Citation `ptolopic' on page 1 undefined on input line 76.
-
+<MoonLocked.png, id=44, 895.09406pt x 774.64406pt>
+File: MoonLocked.png Graphic file (type png)
+<use MoonLocked.png>
+Package pdftex.def Info: MoonLocked.png  used on input line 90.
+(pdftex.def)             Requested size: 328.6279pt x 284.40346pt.
 
 
 [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 
-[2 <./AstroTools1.png>]
-<Astrolaabe1.png, id=50, 836.3747pt x 491.58656pt>
-File: Astrolaabe1.png Graphic file (type png)
-<use Astrolaabe1.png>
-Package pdftex.def Info: Astrolaabe1.png  used on input line 95.
-(pdftex.def)             Requested size: 375.57782pt x 220.75435pt.
-<Sphere1.jpg, id=53, 361.35pt x 361.35pt>
-File: Sphere1.jpg Graphic file (type jpg)
-<use Sphere1.jpg>
-Package pdftex.def Info: Sphere1.jpg  used on input line 105.
-(pdftex.def)             Requested size: 234.73524pt x 234.73688pt.
+[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./MoonLocked.png>]
+<moon-phases.en.png, id=78, 1706.375pt x 907.39pt>
+File: moon-phases.en.png Graphic file (type png)
+<use moon-phases.en.png>
+Package pdftex.def Info: moon-phases.en.png  used on input line 108.
+(pdftex.def)             Requested size: 328.6279pt x 174.7458pt.
 
 
-LaTeX Warning: Citation `sphere' on page 3 undefined on input line 106.
+[3 <./moon-phases.en.png>]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 129.
+
+<VelocityVal.png, id=92, 242.40562pt x 262.73157pt>
+File: VelocityVal.png Graphic file (type png)
+<use VelocityVal.png>
+Package pdftex.def Info: VelocityVal.png  used on input line 140.
+(pdftex.def)             Requested size: 234.73524pt x 254.43237pt.
 
 
-LaTeX Warning: Citation `sphere' on page 3 undefined on input line 106.
+[4]
+
+[5 <./VelocityVal.png>]
+
+[6] (./OrbitalMechanicsofTheMoon.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\T1/cmr/m/n/12 NASA, ``Slr data hold-ings: Lu-nar laser rang-ing data.''
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/cmr/m/n/12 https://www.earthdata.nasa.gov/data/space-geodesy-techniques/slr/lunar-laser-
+ []
 
-[3 <./Astrolaabe1.png>]
-
-[4 <./Sphere1.jpg>]
-
-LaTeX Warning: Citation `quadrant' on page 5 undefined on input line 116.
-
-
-LaTeX Warning: Citation `sext' on page 5 undefined on input line 118.
-
-
-
-[5]
-
-[6]
-No file "AstronomicalToolsReview copy".bbl.
-
+)
 
 [7] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(./AstronomicalToolsReview copy.aux)
+(./OrbitalMechanicsofTheMoon.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `"AstronomicalToolsReview copy".out' has not changed.
-(rerunfilecheck)             Checksum: 296C4C235741BE82E52863B1DB67238D;1362.
+Package rerunfilecheck Info: File `OrbitalMechanicsofTheMoon.out' has not changed.
+(rerunfilecheck)             Checksum: FB989B0A6978570C1866A370FA280B6D;2400.
  ) 
 Here is how much of TeX's memory you used:
- 17725 strings out of 473201
- 292478 string characters out of 5720300
- 855176 words of memory out of 5000000
- 40684 multiletter control sequences out of 15000+600000
- 568132 words of font info for 53 fonts, out of 8000000 for 9000
+ 17786 strings out of 473201
+ 293299 string characters out of 5720300
+ 858175 words of memory out of 5000000
+ 40717 multiletter control sequences out of 15000+600000
+ 572362 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,11n,107p,1465b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on "AstronomicalToolsReview copy.pdf" (7 pages, 427789 bytes).
+ 110i,12n,107p,1216b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on OrbitalMechanicsofTheMoon.pdf (7 pages, 593020 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
